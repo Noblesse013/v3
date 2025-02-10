@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Schoolbell&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="theme-toggle" class="theme-toggle">📓/🌑</button>
+    
+    <!-- Search Bar -->
+    <input type="text" class="search-bar" placeholder="Search notebook...">
+
+    <!-- Projects Section -->
+    <section id="projects" class="notebook-paper">
+        <h2 style="font-family: 'Caveat', cursive;">My Projects</h2>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Built with HTML/CSS/JS</p>
+            <div class="project-links">
+                <a href="#">📘 Demo</a>
+                <a href="#">📖 Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="notebook-paper">
+        <h2>Skills & Tools 🖋️</h2>
+        <div class="skill-badge">HTML5</div>
+        <div class="skill-badge">CSS3</div>
+        <div class="skill-badge">JavaScript</div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="notebook-paper">
+        <h2>Contact with me</h2>
+        <form class="contact-form" netlify>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" rows="3" placeholder="Write your message here..."></textarea>
+            <button type="submit">📨 Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
